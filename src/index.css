@@ -1,0 +1,71 @@
+@import "tailwindcss";
+*{
+  box-sizing: border-box;
+}
+:root {
+  --header-bg: #0b1220; /* pick your header color */
+}
+
+/* Rolling Square Loading Animation */
+@keyframes roll {
+  25% {
+    transform: translateX(-20px);
+  }
+  50% {
+    transform: rotate(90deg) translateY(20px);
+  }
+  75% {
+    transform: rotate(180deg) translateY(20px);
+  }
+  100% {
+    transform: rotate(180deg) translate(20px, 20px);
+  }
+}
+
+@keyframes moveBefore {
+  25% {
+    left: 0;
+  }
+  50% {
+    left: 0;
+  }
+  75% {
+    left: 0;
+  }
+  100% {
+    left: -30px;
+  }
+}
+
+@keyframes moveAfter {
+  25% {
+    left: 100%;
+  }
+  50% {
+    left: calc(100% - 20px);
+  }
+  75% {
+    left: calc(100% - 20px);
+  }
+  100% {
+    left: calc(50% - 10px);
+  }
+}
+
+/* Rolling square animation classes */
+.animate-roll {
+  animation: roll 2s ease infinite;
+}
+
+.animate-moveBefore {
+  animation: moveBefore 2s ease infinite;
+}
+
+.animate-moveAfter {
+  animation: moveAfter 2s ease infinite;
+}
+
+/* Smooth transitions */
+.transition-opacity {
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
