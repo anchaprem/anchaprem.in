@@ -1,0 +1,13 @@
+[1mdiff --git a/src/Components/Projects.jsx b/src/Components/Projects.jsx[m
+[1mindex 8f31b3c..65cd7c2 100644[m
+[1m--- a/src/Components/Projects.jsx[m
+[1m+++ b/src/Components/Projects.jsx[m
+[36m@@ -19,7 +19,7 @@[m [mconst Projects = () => {[m
+       description: "A responsive task manager with deadlines, notifications, filtering, and local storage, built using HTML, CSS, JavaScript, and Bootstrap.",[m
+       technologies: ["JavaScript","Local storage","DOM","Event Handling"," Event Listeners"],[m
+       github: "https://github.com/anchaprem/Todo",[m
+[31m-      live: "https://anchaprem.github.io/Todo/"[m
+[32m+[m[32m      live: "https://anchaprem.github.io/Todo/",[m
+       image: "https://res.cloudinary.com/dn0jgzymu/image/upload/v1755513157/profotile/Capture2025-08-18-160226_ifvdxm.png"[m
+     },[m
+   ];[m
