@@ -11,7 +11,7 @@ const Projects = () => {
       technologies: ["React.js", "hooks","firebase","Gemini API","TMDB Movies API"],
       github: "https://github.com/anchaprem/CineGpt",
       live: "https://anchaprem.github.io/CineGpt/",
-      image: "https://res.cloudinary.com/dn0jgzymu/image/upload/v1709639879/profotile/Control-V_9_xmzkrg.png"
+      image: "https://res.cloudinary.com/dn0jgzymu/image/upload/v1755513083/profotile/Capture2025-08-18-160112_gy2qzl.png"
     },
     {
       id: 2,
