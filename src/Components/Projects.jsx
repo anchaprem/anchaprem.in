@@ -6,36 +6,37 @@ const Projects = () => {
   const featuredProjects = [
     {
       id: 1,
-      title: "portfolio.js",
-      description: "Portfolio.js is a small JS library that helps with clear and succinct data presentation that is easy to navigate. Built by Premchand.",
-      technologies: ["NODE.JS (EXPRESS.JS)", "React.js", "JavaScript"],
-      github: "#",
-      live: "#",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop&crop=center"
+      title: "CineGpt.js",
+      description: "Tell us how you feel, and we’ll recommend the perfect film to match your vibe. Because every mood deserves its own movie moment.",
+      technologies: ["React.js", "hooks","firebase","Gemini API","TMDB Movies API"],
+      github: "https://github.com/anchaprem/CineGpt",
+      live: "https://anchaprem.github.io/CineGpt/",
+      image: "https://res.cloudinary.com/dn0jgzymu/image/upload/v1709639879/profotile/Control-V_9_xmzkrg.png"
     },
     {
       id: 2,
-      title: "TDSB Homework Management Interface",
-      description: "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-      technologies: ["Python (Flask)", "Vue.js", "Bootstrap", "SQL"],
-      github: "#",
-      live: "#",
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop&crop=center"
+      title: "Todo: Store locally",
+      description: "A responsive task manager with deadlines, notifications, filtering, and local storage, built using HTML, CSS, JavaScript, and Bootstrap.",
+      technologies: ["JavaScript","Local storage","DOM","Event Handling"," Event Listeners"],
+      github: "https://github.com/anchaprem/Todo",
+      live: "https://anchaprem.github.io/Todo/"
+      image: "https://res.cloudinary.com/dn0jgzymu/image/upload/v1755513157/profotile/Capture2025-08-18-160226_ifvdxm.png"
     },
-    {
-      id: 3,
-      title: "Adam A.I.",
-      description: "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-      technologies: ["Javascript", "HTML / CSS"],
-      github: "#",
-      live: "#",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&crop=center"
-    }
   ];
 
   const allProjects = [
     {
+      
       id: 1,
+      title: "CineGpt:Your Mood,Our Movie Suggestion",
+      description: "Tell us how you feel, and we’ll recommend the perfect film to match your vibe. Because every mood deserves its own movie moment.",
+      technologies: ["React.js", "hooks","firebase","Gemini API","TMDB Movies API"],
+      github: "https://github.com/anchaprem/CineGpt",
+      live: "https://anchaprem.github.io/CineGpt/"
+    },
+    {
+      
+      id: 2,
       title: "Todo: Store locally",
       description: "A responsive task manager with deadlines, notifications, filtering, and local storage, built using HTML, CSS, JavaScript, and Bootstrap.",
       technologies: ["JavaScript","Local storage","DOM","Event Handling"," Event Listeners"],
@@ -74,7 +75,7 @@ const Projects = () => {
         </div>
 
         {/* Featured Projects Carousel - Visible from md screens only */}
-        <div className="hidden mb-16">
+        <div className="hidden mb-16 sm:block">
           <div className="relative max-w-4xl mx-auto">
             {/* Carousel Container */}
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50">
