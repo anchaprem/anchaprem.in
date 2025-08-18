@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Header from "./Components/header.jsx";
+import Header from "./Components/Header.jsx";
 import Intro from './Components/IntroApp.jsx';
 import Loading from './Components/Loading.jsx'
 import Aboutme from './Components/Aboutme.jsx'
