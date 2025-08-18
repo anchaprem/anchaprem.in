@@ -19,7 +19,7 @@ const Projects = () => {
       description: "A responsive task manager with deadlines, notifications, filtering, and local storage, built using HTML, CSS, JavaScript, and Bootstrap.",
       technologies: ["JavaScript","Local storage","DOM","Event Handling"," Event Listeners"],
       github: "https://github.com/anchaprem/Todo",
-      live: "https://anchaprem.github.io/Todo/"
+      live: "https://anchaprem.github.io/Todo/",
       image: "https://res.cloudinary.com/dn0jgzymu/image/upload/v1755513157/profotile/Capture2025-08-18-160226_ifvdxm.png"
     },
   ];
